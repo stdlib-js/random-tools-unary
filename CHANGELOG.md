@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-01)
+## Unreleased (2025-05-02)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`393c150`](https://github.com/stdlib-js/stdlib/commit/393c150c784d4e0fb903d7633924c18a93a4bedd) - **docs:** update descriptions to be more neutral regarding output values _(by Athan Reines)_
 -   [`b928b26`](https://github.com/stdlib-js/stdlib/commit/b928b2608f992d71684869aaa0cccc457bbfdfb0) - **docs:** add REPL help _(by Athan Reines)_
 -   [`d7fb715`](https://github.com/stdlib-js/stdlib/commit/d7fb7153413ef9f20b751976d77ae5233a864b7e) - **feat:** add `random/tools/unary` _(by Athan Reines)_
 

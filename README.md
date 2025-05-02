@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Constructor for creating ndarrays filled with pseudorandom numbers drawn from a single-parameter probability distribution.
+> Constructor for creating ndarrays filled with pseudorandom values drawn from a unary PRNG.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -75,7 +75,7 @@ var Random = require( '@stdlib/random-tools-unary' );
 
 #### Random( prng, idtypes odtypes, policies\[, options] )
 
-Returns an interface for creating ndarrays filled with pseudorandom numbers drawn from a single-parameter probability distribution.
+Returns an interface for creating ndarrays filled with pseudorandom values drawn from a unary PRNG.
 
 ```javascript
 var dtypes = require( '@stdlib/ndarray-dtypes' );
@@ -96,7 +96,7 @@ var rand = new Random( exponential, idt, odt, policies, options );
 
 The constructor has the following parameters:
 
--   **prng**: unary pseudorandom number generator.
+-   **prng**: unary pseudorandom value generator.
 
 -   **idtypes**: list of supported input data types.
 
@@ -110,11 +110,11 @@ The constructor has the following parameters:
 
 The constructor supports the following options:
 
--   **order**: default memory layout [order][@stdlib/ndarray/orders].
+-   **order**: default [memory layout][@stdlib/ndarray/orders].
 
 #### Random.prototype.generate( shape, param1\[, options] )
 
-Returns an ndarray filled with pseudorandom numbers drawn from a probability distribution.
+Returns an ndarray filled with pseudorandom values drawn from a unary PRNG.
 
 ```javascript
 var dtypes = require( '@stdlib/ndarray-dtypes' );
@@ -139,7 +139,7 @@ var v = rand.generate( [ 2, 2 ], 2.0 );
 The method has the following parameters:
 
 -   **shape**: output ndarray shape.
--   **param1**: distribution parameter. May be either a scalar or an ndarray. If an ndarray, must be [broadcast compatible][@stdlib/ndarray/base/broadcast-shapes] with the specified output ndarray shape.
+-   **param1**: PRNG parameter. May be either a scalar or an ndarray. If an ndarray, must be [broadcast compatible][@stdlib/ndarray/base/broadcast-shapes] with the specified output ndarray shape.
 -   **options**: function options (_optional_).
 
 The method accepts the following options:
@@ -180,7 +180,7 @@ var dt = getDType( v );
 
 #### Random.prototype.assign( param1, out )
 
-Fills an ndarray with pseudorandom numbers drawn from a probability distribution.
+Fills an ndarray with pseudorandom values drawn from a unary PRNG.
 
 ```javascript
 var dtypes = require( '@stdlib/ndarray-dtypes' );
@@ -209,7 +209,7 @@ var bool = ( v === out );
 
 The method has the following parameters:
 
--   **param1**: distribution parameter. May be either a scalar or an ndarray. If an ndarray, must be [broadcast compatible][@stdlib/ndarray/base/broadcast-shapes] with the output ndarray.
+-   **param1**: PRNG parameter. May be either a scalar or an ndarray. If an ndarray, must be [broadcast compatible][@stdlib/ndarray/base/broadcast-shapes] with the output ndarray.
 -   **out**: output ndarray.
 
 </section>
