@@ -131,7 +131,7 @@ declare class RandomArray<T, U> {
 	constructor( prng: UnaryPRNG<T, U>, idtypes: ArrayLike<DataType>, odtypes: ArrayLike<DataType>, policies: Policies, options?: ConstructorOptions );
 
 	/**
-	* Returns an array filled with pseudorandom values drawn from a unary PRNG.
+	* Returns an ndarray filled with pseudorandom values drawn from a unary PRNG.
 	*
 	* @param shape - output shape
 	* @param param1 - PRNG parameter
