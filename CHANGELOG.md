@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`ada899e`](https://github.com/stdlib-js/stdlib/commit/ada899e505ef19e01af7a68dbbcca58451607faf) - **docs:** fix signature _(by Athan Reines)_
 -   [`fc2fa6d`](https://github.com/stdlib-js/stdlib/commit/fc2fa6d9fd3d3ecdd5264fdb0a9f27973c8bdc7d) - **docs:** fix signature _(by Athan Reines)_
 -   [`4f24995`](https://github.com/stdlib-js/stdlib/commit/4f24995e799d0589bf1edb0c9bd9341d34ef0e9f) - **test:** fix comment _(by Athan Reines)_
 -   [`16bbff1`](https://github.com/stdlib-js/stdlib/commit/16bbff17124264210133382c5557b7016d85493a) - **bench:** explicitly set dtype _(by Athan Reines)_

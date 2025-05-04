@@ -73,7 +73,7 @@ To view installation and usage instructions specific to each branch build, be su
 var Random = require( '@stdlib/random-tools-unary' );
 ```
 
-#### Random( prng, idtypes odtypes, policies\[, options] )
+#### Random( prng, idtypes, odtypes, policies\[, options] )
 
 Returns an interface for creating ndarrays filled with pseudorandom values drawn from a unary PRNG.
 
