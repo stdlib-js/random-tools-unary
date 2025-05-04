@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-03)
+## Unreleased (2025-05-04)
 
 <section class="features">
 
@@ -17,12 +17,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`6fcba80`](https://github.com/stdlib-js/stdlib/commit/6fcba8015a623cccab4c4c60152ef680653be786) - ensure support for zero-dimensional ndarray distribution parameters
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`6fcba80`](https://github.com/stdlib-js/stdlib/commit/6fcba8015a623cccab4c4c60152ef680653be786) - **fix:** ensure support for zero-dimensional ndarray distribution parameters _(by Athan Reines)_
 -   [`fd431ff`](https://github.com/stdlib-js/stdlib/commit/fd431ff0ac7fcdea9de4fab41e441f32dab1868e) - **test:** fix typo _(by Athan Reines)_
 -   [`ce7c394`](https://github.com/stdlib-js/stdlib/commit/ce7c394d694cafaf6fdc47c55709dac0d677d7ae) - **docs:** update comments _(by Athan Reines)_
 -   [`ea82afc`](https://github.com/stdlib-js/stdlib/commit/ea82afcd5597dabb4e9fa25efb81efc84789b690) - **docs:** update description _(by Athan Reines)_
