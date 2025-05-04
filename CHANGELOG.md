@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`16bbff1`](https://github.com/stdlib-js/stdlib/commit/16bbff17124264210133382c5557b7016d85493a) - **bench:** explicitly set dtype _(by Athan Reines)_
 -   [`6fcba80`](https://github.com/stdlib-js/stdlib/commit/6fcba8015a623cccab4c4c60152ef680653be786) - **fix:** ensure support for zero-dimensional ndarray distribution parameters _(by Athan Reines)_
 -   [`fd431ff`](https://github.com/stdlib-js/stdlib/commit/fd431ff0ac7fcdea9de4fab41e441f32dab1868e) - **test:** fix typo _(by Athan Reines)_
 -   [`ce7c394`](https://github.com/stdlib-js/stdlib/commit/ce7c394d694cafaf6fdc47c55709dac0d677d7ae) - **docs:** update comments _(by Athan Reines)_
