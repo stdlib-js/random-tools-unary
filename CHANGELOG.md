@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-12-28)
 
 <section class="features">
 
@@ -33,6 +33,8 @@
 
 <details>
 
+-   [`4abc1e5`](https://github.com/stdlib-js/stdlib/commit/4abc1e583d211d7835a3c91e2b5d1561a16284e4) - **docs:** update example _(by Athan Reines)_
+-   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`ada899e`](https://github.com/stdlib-js/stdlib/commit/ada899e505ef19e01af7a68dbbcca58451607faf) - **docs:** fix signature _(by Athan Reines)_
 -   [`fc2fa6d`](https://github.com/stdlib-js/stdlib/commit/fc2fa6d9fd3d3ecdd5264fdb0a9f27973c8bdc7d) - **docs:** fix signature _(by Athan Reines)_
 -   [`4f24995`](https://github.com/stdlib-js/stdlib/commit/4f24995e799d0589bf1edb0c9bd9341d34ef0e9f) - **test:** fix comment _(by Athan Reines)_
@@ -56,9 +58,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
