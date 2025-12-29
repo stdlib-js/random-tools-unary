@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-28)
+## Unreleased (2025-12-29)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`13e7d2c`](https://github.com/stdlib-js/stdlib/commit/13e7d2cae0aeddfbc2ea6bbbb2a465909aeb5c31) - **refactor:** support data type instances _(by Athan Reines)_
 -   [`4abc1e5`](https://github.com/stdlib-js/stdlib/commit/4abc1e583d211d7835a3c91e2b5d1561a16284e4) - **docs:** update example _(by Athan Reines)_
 -   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`ada899e`](https://github.com/stdlib-js/stdlib/commit/ada899e505ef19e01af7a68dbbcca58451607faf) - **docs:** fix signature _(by Athan Reines)_
