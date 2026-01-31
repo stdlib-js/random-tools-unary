@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@esm/index.mjs';
+import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@v0.1.0-esm/index.mjs';
 ```
 
 #### Random( prng, idtypes, odtypes, policies\[, options] )
@@ -228,7 +228,7 @@ import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-expon
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@esm/index.mjs';
+import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@v0.1.0-esm/index.mjs';
 
 // Create a new PRNG instance...
 var idt = dtypes( 'real_and_generic' );
