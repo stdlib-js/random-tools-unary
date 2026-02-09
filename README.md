@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-tools-unary/tags). For example,
+
+```javascript
 import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@v0.1.1-esm/index.mjs';
 ```
 
@@ -228,7 +233,7 @@ import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-expon
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@v0.1.1-esm/index.mjs';
+import Random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-tools-unary@esm/index.mjs';
 
 // Create a new PRNG instance...
 var idt = dtypes( 'real_and_generic' );
